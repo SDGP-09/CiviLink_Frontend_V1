@@ -1,6 +1,8 @@
 import React from 'react';
 import SidebarBox from "@/app/components/sidebar/SidebarBox";
 
+
+
 function Sidebar() {
 
     const links:string[] = ["Create Account","Login","Consultants","Contractors","Calender","Pricing"];
@@ -12,7 +14,7 @@ function Sidebar() {
                 {links.map((link, index) => (
                     <li key={index} className="list-none">
                         <a href="/contractors">
-                            <SidebarBox key={index} name={link}/>
+                            <SidebarBox  name={link} />
                         </a>
                     </li>
                 ))}
