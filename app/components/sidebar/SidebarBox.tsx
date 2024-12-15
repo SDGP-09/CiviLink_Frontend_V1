@@ -1,6 +1,8 @@
 import React from 'react';
 
-function SidebarBox({name}) {
+
+
+function SidebarBox({name}: {name:string | null}) {
     return (
         <>
         
