@@ -1,0 +1,119 @@
+.consultant-card {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    border: none;
+    background-color: #ffffff;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    text-align: left;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info {
+    width: 60%;
+    line-height: 2.0;
+  }
+  
+  .info p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .extras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  }
+  
+  .search-bar {
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .profile-image {
+    width: 100%;          
+    height: auto;        
+    border-radius: 5px;   
+    object-fit: cover;   
+    margin: 10px 0;       
+  }
+  
+  .calendar {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .calendar table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    color: #2c3e50;
+  }
+  
+  .calendar th,
+  .calendar td {
+    padding: 6px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .calendar th {
+    background-color: #f0f0f0;
+  }
+  
+  .calendar td {
+    background-color: #fdfdfd;
+  }
+  
+  .request-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    height: 8%;
+  }
+  
+  
+  .request-button:hover {
+    background-color: #2980b9;
+  }
+  

@@ -1,8 +1,13 @@
 import React from 'react';
+import ConsultantCard from './consultantCard';
 
 function Page() {
     return (
-        <div>Consultants</div>
+        <>
+        <div></div>
+       <ConsultantCard />
+  
+</>
     );
 }
 
