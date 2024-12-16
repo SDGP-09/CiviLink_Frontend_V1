@@ -1,6 +1,9 @@
 import React from 'react';
 
-function SidebarBox({name}) {
+interface SidebarBoxProps{
+    name: String;
+}
+function SidebarBox({name}: SidebarBoxProps) {
     return (
         <>
         
@@ -13,3 +16,4 @@ function SidebarBox({name}) {
 }
 
 export default SidebarBox;
+
