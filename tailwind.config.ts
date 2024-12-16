@@ -12,7 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
 
-        blueCanvas: '#A2C7E0',
+        blueCanvas: '#B9D5E8',
         navBlue:'#2F26E0',
         canvasWhite: '#FAF9F6',
         sideBoxBlack:'#36454F'
