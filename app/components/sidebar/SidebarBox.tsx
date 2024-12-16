@@ -1,6 +1,11 @@
 import React from 'react';
 
-function SidebarBox({name}) {
+
+interface SidebarBoxProps {
+    name: string; 
+  }
+
+function SidebarBox({name}:SidebarBoxProps) {
     return (
         <>
         
