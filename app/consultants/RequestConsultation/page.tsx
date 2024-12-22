@@ -3,7 +3,7 @@
 import React from "react";
 import { FaSearch, FaArrowLeft } from "react-icons/fa";
 
-const RequestConsultation = () => {
+const Page = () => {
   return (
     <div className="min-h-screen flex flex-col items-center p-4 bg-gray-100">
       <div className="bg-white rounded-lg shadow-lg w-full max-w-5xl">
@@ -132,4 +132,4 @@ const RequestConsultation = () => {
   );
 };
 
-export default RequestConsultation;
+export default Page;

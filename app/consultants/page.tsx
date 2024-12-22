@@ -1,17 +1,14 @@
-import React from 'react';
-
-import ConsultantProfile from '../consultants/consultantProfile';
-// import RequestConsultation from '../consultants/requestConsultation';
-//import calendar from "../consultants/calendar";
-
+import React from "react";
+import ConsultantProfile from "./consultantProfile";
 
 function Page() {
-    return (
-      
+  return (
+    <>
+      <div className="w-full h-full border border-black bg-white">
         <ConsultantProfile />
-        // <RequestConsultation />
-        // <calendar />
-    );
+      </div>
+    </>
+  );
 }
 
 export default Page;
